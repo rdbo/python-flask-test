@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <title>{% block title %}Test Flask {% endblock %} </title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content">
+            {% block content %}
+            <p>testing</p>
+            {% endblock %}
+        </div>
+    </body>
+</html>
